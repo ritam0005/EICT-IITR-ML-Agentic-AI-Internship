@@ -54,3 +54,25 @@ python -m venv venv
 pip install -r requirements.txt
 ollama serve
 streamlit run app.py
+
+---
+
+## 3. Resume - Job Description matching using a Siamese BiLSTM DNN
+**Folder:** `Resume-JD Match Scorer/`
+
+A deep learning NLP system trained on a JSONL dataset of resume and job description pairs to classify candidate fit into **Weak Match**, **Medium Match**, or **Strong Match**, while outputting class probabilities and shared/missing skills.
+- **Architecture:** Siamese Bidirectional LSTM network with shared weights in TensorFlow/Keras, `TextVectorization`, `EarlyStopping`, and `ModelCheckpoint` (`resume_jd_match_model_final.keras`).
+- **Test Set Performance:**
+
+| Metric | Score |
+| :--- | :---: |
+| **Accuracy** | **0.8699** (86.99%) |
+| **Precision** | **0.8733** (87.33%) |
+| **Recall** | **0.8699** (86.99%) |
+| **F1-Score** | **0.8695** (86.95%) |
+
+---
+
+## Author
+**Ritam Das** — B.Tech CSE, Adamas University, Kolkata  
+GitHub: [@ritam0005](https://github.com/ritam0005)
