@@ -53,9 +53,9 @@ python -m venv venv
 # Activate: venv\Scripts\activate (Windows) | source venv/bin/activate (Mac/Linux)
 pip install -r requirements.txt
 ollama serve
-streamlit run app.py```
+streamlit run app.py
+```
 ---
-
 ## 3. Resume - Job Description matching using a Siamese BiLSTM DNN
 **Folder:** `Resume-JD Match Scorer/`
 
