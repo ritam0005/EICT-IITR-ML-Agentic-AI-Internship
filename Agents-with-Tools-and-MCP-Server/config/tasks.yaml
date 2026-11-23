@@ -1,0 +1,15 @@
+analysis:
+
+  description: >
+    Analyze the user's business problem.
+
+  expected_output: >
+    Business insights.
+
+science:
+
+  description: >
+    Recommend machine learning solutions.
+
+  expected_output: >
+    AI recommendations.
